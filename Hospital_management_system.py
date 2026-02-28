@@ -64,7 +64,6 @@ class HospitalApp(tk.Tk):
         # Start with login page
         self.show_login_page()
 
-    # ------------- IMAGE LOADING -------------
     def load_images(self):
         def load(name, filename, size=None):
             path = os.path.join(os.path.dirname(__file__), filename)
